@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/29d2e984e7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="container">
+
+        <!-- <div id="round-indicator">
+            <span class="dot" id="dot1"></span>
+            <span class="dot" id="dot2"></span>
+            <span class="dot" id="dot3"></span>
+        </div> -->
+        <div id="game-field">
+            <div id="user-game"></div>
+            <h3 id="vs-text">VS</h3>
+            <div id="cpu-game"></div>
+        </div>
+        <div id="choose-moves">
+            <div id="user-moves">
+                <div class="icons r" id="rock-u">
+                    <i id="r-u" class="far fa-hand-rock fa-rotate-90"></i>
+                    <!-- <h6>R</h6> -->
+                </div>
+                <div class="icons" id="paper-u">
+                    <i id="p-u" class="far fa-hand-paper fa-rotate-90"></i>
+                    <!-- <h6>P</h6> -->
+                </div>
+                <div class="icons" id="scissor-u">
+                    <i id="s-u" class="far fa-hand-scissors fa-flip-horizontal"></i>
+                    <!-- <h6>S</h6> -->
+                </div>
+
+            </div>
+            <div id="cpu-moves">
+                <div class="icons" id="scissor-c">
+                    <i id="s-c" class="far fa-hand-scissors"></i>
+                    <!-- <h6>S</h6> -->
+                </div>
+                <div class="icons" id="paper-c">
+                    <span class="fa-rotate-90" style="display: inline-block">
+                    <i id="p-c" class="far fa-hand-paper fa-flip-vertical"></i>
+                    </span>
+                    <!-- <h6>P</h6> -->
+                </div>
+                <div class="icons" id="rock-c">
+                    <span class="fa-rotate-90" style="display: inline-block">
+                    <i id="r-c" class="far fa-hand-rock fa-flip-vertical"></i>
+                </span>
+                    <!-- <h6>R</h6> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
